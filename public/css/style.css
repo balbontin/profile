@@ -1,0 +1,48 @@
+/*** reset ***/
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*** title ***/
+
+h1 {
+  text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+footer {
+  background: #5ebacf;
+  display: flex;
+  flex-direction: row;
+}
+
+#description {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+/*** flex ***/
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  /*width: 100px;*/
+  margin: 10px;
+  /*text-align: center;*/
+  font-size: 12px;
+}
